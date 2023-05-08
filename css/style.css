@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* wrapper */
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+/* dark-section mobile */
+
+#dark-sec-mobile {
+    display: none;
+}
+
+/* dark-section-desktop */
+
+#dark-sec {
+    background-image: url('../images/bg-main-desktop.png');
+    background-size: cover;
+    background-color: black;
+    color: white;
+    flex-grow: 3;
+}
+
+.card {
+    background-size: cover;
+    height: 160px;
+    width: 290px;
+    border-radius: 5px;
+}
+
+.card-front {
+    /* background-image: url('../images/bg-card-front.png'); */
+    background-color: yellow;
+    position: absolute;
+    left: 18%;
+    top: 23%;
+}
+
+.card-back {
+    /* background-image: url('../images/bg-card-back.png'); */
+    background-color: rgb(96, 14, 237);
+    position: relative;
+    left: 68%;
+    top: 51%;
+}
+
+#form {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 50px; */
+}
+
+.form-label {
+    font-family: "Space Grotesk", sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.date-cvc {
+    display: flex;
+}
+
+.label-input-container {
+    width: 120%;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-date {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 120%;
+}
+
+.exp-date input {
+    width: 4rem;
+}
+
+.cvc {
+    width: 80%;
+    margin-left: 2.5rem;
+    /* position: relative; */
+    /* right: 5%;  */
+}
+
+.cvc input {
+    width: 55%;
+}
+
+#light-sec {
+    flex-grow: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 35px;
+    width: 68.5%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
